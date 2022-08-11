@@ -1,0 +1,60 @@
+body {
+    background-image: url("../public/images/fruitbg2.jpg"); 
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.about-header {
+    text-align: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 35px;
+}
+
+.about-container-1 {
+    margin: 50px;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 90%;
+}
+
+.about-p-1 {
+    font-size: 30px;
+    width: 70%;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.juice-bottles {
+    display: inline-block;
+    height: 270px;
+    width: 270px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.about-p-2 {
+    font-size: 30px;
+    width: 45%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    vertical-align: text-top;
+    margin-right: 70px;
+    margin-left: 10px;
+    
+}
+
+.about-p-3 {
+    font-size: 30px;
+    width: 45%;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    vertical-align: text-top;  
+}
+
