@@ -1,3 +1,4 @@
+import React from 'react';
 
 import { Route, Routes } from "react-router-dom";
 import './App.css';
@@ -6,8 +7,6 @@ import Product from "./components/Product";
 import Navbar from "./components/Navbar"
 import Home from './components/Home'
 import Contact from "./components/Contact"
-
-
 
 
 function App() {
