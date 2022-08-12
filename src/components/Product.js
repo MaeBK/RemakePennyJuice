@@ -26,15 +26,18 @@ export default function Product(){
 
     return (
         <>
-            <h1>Products Page</h1>
-            <p>Youre a nerd</p>
-            <ul className="product__list">
+            <h1 className="prod-page-title">All Flavors</h1>
+            {/* <p>Youre a nerd</p> */}
+            <section className="product-main"> 
+            {/* added section above */}
+            <ul className="product-list">
                 {loading ? <h1>Loading...</h1> : null}
                 {error ? <h1>Error</h1> : null}
                 {products.map(product => {
                   return <ProductCard key={product._id} products={product} />
                 })}
             </ul>
+            </section>
         </>
     )
 }
