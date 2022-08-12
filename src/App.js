@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import './App.css';
 import Aboutus from "./components/Aboutus";
 import Product from "./components/Product";
-import GetInTouch from "./components/GetInTouch";
 import Navbar from "./components/Navbar"
 import Home from './components/Home'
 import Contact from "./components/Contact"
