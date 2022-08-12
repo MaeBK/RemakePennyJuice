@@ -4,9 +4,10 @@ import './App.css';
 import Aboutus from "./components/Aboutus";
 import Product from "./components/Product";
 import GetInTouch from "./components/GetInTouch";
-import Navbar from "./components/Navbar"
-import Home from './components/Home'
-import Contact from "./components/Contact"
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 
 
@@ -14,14 +15,14 @@ import Contact from "./components/Contact"
 function App() {
   return (
     <>
-    <Navbar />
+    <Navbar/>
     <Routes>
       <Route path="/Home" element= {<Home />} />
       <Route path="/About" element= {<Aboutus />} />
       <Route path="/Product" element= {<Product />} />
       <Route path="/Contact" element= {<Contact />} />
     </Routes>
-
+    <Footer/>
     </>
   );
 }
