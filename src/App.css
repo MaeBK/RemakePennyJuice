@@ -72,21 +72,19 @@ body{
     display:flex;
     flex-direction: column;
     flex:1;
-    
-    /* padding-top: 25px; */
+
 }
 .orangeTwoBlue{
     display:flex;
     flex-direction: column;
     flex:1;
     text-decoration: none;
-    /* padding-top: 25px; */
+    
 }
 .orangeTwoStrawnana{
     display:flex;
     flex-direction: column;
-
     flex:1; 
     text-decoration: none;
-    /* padding-top: 25px; */
+    
 }

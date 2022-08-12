@@ -32,6 +32,7 @@ class Home extends React.Component{
                     <h1>Healthy Juice Concentrates for All! </h1>
                 </div>
                 <div class="tealContents">
+                <img src="https://cdn.discordapp.com/attachments/1006773653821734962/1007464489857339472/fruit-hero2.png" width= "15%"></img>
                     <p>We provide a veriety of flavors that all kids enjoy! 
                     All the juice concentrates that we sell are compliant with the 
                     USDA and FDA guidelines. You don't need to refrigerate the 
@@ -39,7 +40,7 @@ class Home extends React.Component{
                     <button>Learn More</button>
                 </div>
                 <div class="tealImg">
-                <img src="https://cdn.discordapp.com/attachments/1006773653821734962/1007464435520118915/IMG_0289.jpg" width= "15%"></img>
+                
                 </div>
             </div>
             <div class= "homeOrangeTwo">
