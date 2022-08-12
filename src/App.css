@@ -2,6 +2,9 @@ body{
     margin:0;
     padding:0;
     font-family: sans-serif;
+    background-image: url("../public/images-2/fruitbg2.jpg"); 
+    background-size: cover;
+    font-family: sans-serif;
 }
 /* ---------Home Page---------------- */
 .homeHero{
@@ -186,3 +189,147 @@ body{
         gap: 1rem ;
     }
 }
+
+/* about page styling */
+.about-header {
+    text-align: center;
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 30px;
+}
+
+.about-container-1 {
+    margin: 50px;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 85%;
+    display: flex;
+}
+
+.about-container-2 {
+    margin: 50px;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 85%;
+    display: flex;
+    flex-direction: row;
+}
+
+.small-container-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.small-container-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.abt-title {
+    font-size: 30px;
+}
+
+.squiggly-1 {
+    width: 600px;
+    height:20px;
+    margin-left: 30px;
+}
+
+.squiggly-2 {
+    width: 650px;
+    height:20px;
+    margin-left: 10px;
+}
+
+.juice-bottles {
+    height: 250px;
+    width: 270px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.about-p {
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.about-container-3 {
+    /* margin: 50px; */
+    background-color: white;
+    border-radius: 30px;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-p-last {
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.input-bubble {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input-bubble input {
+    font-size: 25px;
+    border-radius: 25px;
+    width: 50%;
+    
+}
+/* end of about page styling */
+
+/* contact page styling */
+.contact-title {
+    font-size: 40px;
+    padding-top: 50px;
+    color: rgb(156, 153, 153);
+}
+
+.contact-container {
+    display: block;
+    text-align: center;
+    margin: 50px;
+    background-color: white;
+    opacity: 85%;
+    border-radius: 50px;
+}
+
+.contact-input-bubble input {
+    font-size: 25px;
+    border-radius: 25px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.contact-text-area textarea {
+    padding: 8px;
+    width: 50%;
+    height: 400px;
+    font-size: 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.submit-btn {
+    font-size: 18px;
+    color: white;
+    background-color: #F47A63;
+    display: center;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+/* end contact page styling */

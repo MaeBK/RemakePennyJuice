@@ -1,6 +1,24 @@
 import React from "react";
 
 class Home extends React.Component {
+
+
+    constructor(props) {
+        super(props);
+        this.state = {
+                isFetching: false,
+                data: []
+        }
+    }
+
+    componentDidMount() {
+        this.setState({ isFetching: true });
+        fetch("https://api.adviceslip.com/advice")
+            .then(response => response.json())
+            .then(data => this.setState({ data: data.slip.advice, isFetching: false }));
+    }
+    
+    
   render() {
     return (
       <>
@@ -10,7 +28,7 @@ class Home extends React.Component {
               100% Blended fruit juice concentrate specifically designed for
               childcare centers!!
             </h1>
-            <p></p>
+            <p>{this.state.isFetching ? "Loading..." : this.state.data}</p>
           </div>
         </div>
 
@@ -97,3 +115,5 @@ class Home extends React.Component {
 }
 
 export default Home;
+
+
