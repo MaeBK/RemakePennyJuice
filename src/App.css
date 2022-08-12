@@ -1,7 +1,7 @@
 body{
-    font-family: sans-serif;
     margin:0;
     padding:0;
+    font-family: sans-serif;
 }
 /* ---------Home Page---------------- */
 .homeHero{
@@ -21,37 +21,102 @@ body{
     border-radius:50px;
     background: rgba(255, 255, 255, 0.75);
 }
+
+.homeButtons{
+    background-color: #1E3F75;
+    font-size: 18px;
+    color: white;
+    display: center;
+    padding: 10px;
+    border-radius:50px;
+    border: none;
+}
+
+
 .homeOrangeOne{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     border-radius:50px;
     background-color:#F49628 ;
-    height: 25vh;
+    padding: 1REM ;
 }
 .orangeOneHeader{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-align: center;
     color: #ffffff;
+}
+.orangeOneHeader h1{
+    margin: 0;
+    padding: 0;
+}
+.orangeOneBits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.8rem 0 1.1rem 0;
 }
 .orangeOneContents{
-    display: flex;
-    flex-direction: column;
+    /* display:grid;
+    place-content: center; */
+    width:50%;
+    text-align: center;
+}
+.OrangeOneImg{
+    width:50%;
+    text-align: center;
+}
+.OrangeOneImg img{
+    width: 50%;
+    border-radius:25px;
+    object-fit:cover;
 }
 .homeTeal{
+    display:flex;
+    flex-direction: column;
     border-radius:50px;
-    background-color:#2C858D ;
-    height: 25vh;
+    background-color: #2C858D ;
+    padding: 1REM ;
 }
 .tealHeader{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-align: center;
     color: #ffffff;
 }
+.tealHeader h1{
+    margin: 0;
+    padding: 0;
+}
+.tealBits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1.8rem 0 1.1rem 0;
+}
+.tealImg{
+    width:50%;
+    text-align: center;
+}
+.tealImg img{
+    width: 50%;
+    border-radius:25px;
+    object-fit:cover;
+}
+.tealContents{
+    /* display:grid;
+    place-content: center; */
+    width:50%;
+    text-align: center;
+    color:#ffffff;
+}
+
 .homeOrangeTwo{
     border-radius:50px;
     background-color:#F49628 ;
@@ -87,4 +152,13 @@ body{
     flex:1; 
     text-decoration: none;
     
+}
+@media (max-width:56.25em){
+    .orangeOneBits{
+        flex-direction: column;
+        gap: 1rem ;
+    }
+    .orangeOneContents, .OrangeOneImg{
+        width:100%;
+    }
 }
