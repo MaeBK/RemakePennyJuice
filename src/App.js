@@ -1,24 +1,30 @@
-import Aboutus from "./components/Aboutus";
-import Home from "./components/Home";
-import Product from "./components/Product";
-import Contact from "./components/Contact";
-import Nav from "./components/Nav";
-import GetInTouch from "./components/GetInTouch";
 
 import { Route, Routes } from "react-router-dom";
 import './App.css';
 
+
+import Aboutus from "./components/Aboutus";
+import Product from "./components/Product";
+import Nav from "./components/Nav";
+import GetInTouch from "./components/GetInTouch";
+
+import Navbar from "./components/Navbar"
+import Home from './components/Home'
+import About from "./components/About"
+import Contact from "./components/Contact"
+
+
 function App() {
   return (
     <>
-    <h1>You're a Nerd.</h1>
-    <Nav />
+    <Navbar />
     <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Aboutus" element={<Aboutus />} /> 
-          <Route path="/Product" element={<Product />} />
-          <Route path="/Contact" element={<Contact />} /> 
+      <Route path="/Home" element= {<Home />} />
+      <Route path="/About" element= {<Aboutus />} />
+      <Route path="/Product" element= {<Product />} />
+      <Route path="/Contact" element= {<Contact />} />
     </Routes>
+
     </>
   );
 }
