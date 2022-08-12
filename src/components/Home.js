@@ -67,29 +67,26 @@ class Home extends React.Component {
           <div class="homeBestSellers">
             <div class="orangeTwoApple">
               <img
-                src="https://cdn.discordapp.com/attachments/823287867870019676/1007478588397858926/pj-apple.png"
-                width="100px"
+                src="https://cdn.discordapp.com/attachments/823287867870019676/1007520998930792519/pj-apple_1.png"
                 alt="Apple"
               />
-              <p>Apple</p>
+              <h3>Apple</h3>
               <button className="homeButtons">Order Now</button>
             </div>
             <div class="orangeTwoBlue">
               <img
-                src="https://cdn.discordapp.com/attachments/823287867870019676/1007478588741787788/pj-blu-raz.png"
-                width="100px"
+                src="https://cdn.discordapp.com/attachments/823287867870019676/1007523498350092328/pj-blu-raz_1.png"
                 alt="Blue Raspberry"
               />
-              <p>Blue Raspberry</p>
+              <h3>Blue Raspberry</h3>
               <button className="homeButtons">Order Now</button>
             </div>
             <div class="orangeTwoStrawnana">
               <img
-                src="https://cdn.discordapp.com/attachments/823287867870019676/1007478589043789904/pj-straw-nana.png"
-                width="100px"
+                src="https://cdn.discordapp.com/attachments/823287867870019676/1007523498886967296/pj-straw-nana_1.png"
                 alt="Strawberry Banana"
               />
-              <p>Strawberry Banana</p>
+              <h3>Strawberry Banana</h3>
               <button className="homeButtons">Order Now</button>
             </div>
           </div>

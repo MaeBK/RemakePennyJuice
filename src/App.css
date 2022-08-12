@@ -32,7 +32,6 @@ body{
     border: none;
 }
 
-
 .homeOrangeOne{
     display:flex;
     flex-direction: column;
@@ -118,11 +117,13 @@ body{
 }
 
 .homeOrangeTwo{
+    display:flex;
+    flex-direction: column;
     border-radius:50px;
     background-color:#F49628 ;
-    height: 25vh;
+    padding: 1REM ;
 }
-.homeOrangeTwo{
+.orangeTwoHeader{
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-align: center;
@@ -131,27 +132,39 @@ body{
 .homeBestSellers{
     display:flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    color:#ffffff;
 }
 .orangeTwoApple{
-    text-decoration: none;
+    text-align: center;
     display:flex;
     flex-direction: column;
-    flex:1;
-
+    justify-content: center;
 }
+.orangeTwoApple img{
+    padding-left: 10px; 
+    width: 90%;
+}
+
 .orangeTwoBlue{
     display:flex;
     flex-direction: column;
-    flex:1;
-    text-decoration: none;
-    
+    text-align: center;
+    justify-content: center;
 }
+.orangeTwoBlue img{
+    padding-left: 7px; 
+    width: 100%;
+}
+
 .orangeTwoStrawnana{
     display:flex;
     flex-direction: column;
-    flex:1; 
-    text-decoration: none;
-    
+    text-align: center;
+    justify-content: center;
+}
+.orangeTwoStrawnana img{
+    padding-left: 18px;
 }
 @media (max-width:56.25em){
     .orangeOneBits{
