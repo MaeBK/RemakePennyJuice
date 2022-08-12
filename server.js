@@ -1,16 +1,29 @@
 const MongoClient = require('mongodb').MongoClient;
 const cors = require("cors")
 const bodyParser = require("body-parser")
-
+const express = require('express');
+const helmet = require('helmet');
+const morgan = require('morgan');
 
 // starts express server
 const express = require('express');
 const app = express();
 const port = process.env.PORT|| 8080;
      
-app.use(cors());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+// adding Helmet to enhance your Rest API's security
+app.use(helmet());
+
+// enabling CORS for all requests
+app.use(cors());
+
+// adding morgan to log HTTP requests
+app.use(morgan('combined'));
+
+
+
 app.listen(port, () => console.log(`Listening on port ${port}`));
 
 
