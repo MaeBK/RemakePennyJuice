@@ -1,15 +1,40 @@
-import React from 'react';
+import ProductCard from "./ProductCard.js";
+import { useEffect, useState } from "react";
 
 
-class Product extends React.Component{
-    render() {
-        return (
-            <>
-            <h1>This is the products page</h1>
-            </>
+export default function Product(){
+    const [products, setProducts] = useState([]);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
-            )
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const result = await fetch(`https://remake-penny-juice.herokuapp.com/data`)
+                const data = await result.json();
+                setProducts(data);
+                setLoading(false);
+            } catch (error) {
+                setError(error);
+                
+            }
         }
-    }
-    
-    export default Product;
+        fetchData();
+    }, [])
+
+
+    return (
+        <>
+            <h1>Products Page</h1>
+            <p>Youre a nerd</p>
+            <ul className="product__list">
+                {loading ? <h1>Loading...</h1> : null}
+                {error ? <h1>Error</h1> : null}
+                {products.map(product => {
+                  return <ProductCard key={product._id} products={product} />
+                })}
+            </ul>
+        </>
+    )
+}
