@@ -4,13 +4,15 @@ import GetInTouch from './GetInTouch';
 class Aboutus extends React.Component{
     render() {
         return (
+
             <>
+
+          
            
             <h1 className="about-header">Premium Quality 100% Fruit Juice Concentrate.
             <br></br> 
-                No Sugar Added. Non Refrigerated. 
-            </h1>
-            
+                No Sugar Added. Non Refrigerated. </h1>
+          
             <div className="about-container-1">
 
                 <p className="about-p">Get delicious and nutritious 100% fruit juice from 
