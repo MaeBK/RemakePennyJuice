@@ -38,6 +38,6 @@ Database - MongoDB <====> Backend - Heroku ("backend" branch) <====> Frontend - 
 
 ### Misc Notes
 
-[Live Site](https://main-working.dp72m1pjapjds.amplifyapp.com/)
-[Working Site](https://main.dp72m1pjapjds.amplifyapp.com/)
+[Live Site](https://main.dp72m1pjapjds.amplifyapp.com/)
+[Working Site](https://main-working.dp72m1pjapjds.amplifyapp.com/)
 [Backend Endpoint](https://remake-penny-juice.herokuapp.com/)
