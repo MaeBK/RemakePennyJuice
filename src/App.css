@@ -174,4 +174,15 @@ body{
     .orangeOneContents, .OrangeOneImg{
         width:100%;
     }
+    .tealBits{
+        flex-direction: column;
+        gap: 1rem ;
+    }
+    .tealContents, .tealImg{
+        width:100%;
+    }
+    .homeBestSellers{
+        flex-direction: column;
+        gap: 1rem ;
+    }
 }
