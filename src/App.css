@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+}
+/* ---------Home Page---------------- */
+.homeHero{
+    background-image: url(images/PennyJuiceTakeTwo.jpg);
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.homeHeroText{
+    text-align: center;
+    border-radius:20%;
+    background: rgba(255, 255, 255, 0.75);
+}
+.homeOrangeOne{
+
+    background-color:#F49628 ;
+    height: 25vh;
+}
+.orangeOneHeader{
+    text-align: center;
+}
+.homeTeal{
+    background-color:#2C858D ;
+    height: 25vh;
+}
+.tealHeader{
+    text-align: center;
+}
+.homeOrangeTwo{
+    background-color:#F49628 ;
+    height: 25vh;
+}
+.orangeTwoHeader{
+    text-align: center;
+}

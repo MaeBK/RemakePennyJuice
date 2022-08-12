@@ -6,12 +6,12 @@ import Contact from "./components/Contact";
 import Nav from "./components/Nav";
 
 import { Route, Routes } from "react-router-dom";
-// import './App.css';
+import './App.css';
 
 function App() {
   return (
     <>
-    <h1>You're a Nerd.</h1>
+    <h1>Hey Dork</h1>
     <Nav />
     <Routes>
           <Route path="/" element={<Home />} />
