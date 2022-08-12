@@ -1,8 +1,8 @@
 const MongoClient = require('mongodb').MongoClient;
-const cors = require("cors")
 const bodyParser = require("body-parser")
-const express = require('express');
 const helmet = require('helmet');
+const cors = require("cors")
+const express = require('express');
 const morgan = require('morgan');
 
 // starts express server
