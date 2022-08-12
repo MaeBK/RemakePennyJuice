@@ -19,6 +19,7 @@ body{
     background-size: cover;
     position: relative;
 }
+
 .homeHeroText{
     text-align: center;
     border-radius:50px;
@@ -45,37 +46,40 @@ body{
 .orangeOneHeader{
     display:flex;
     flex-direction: column;
-    /* justify-content: center; */
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-align: center;
     color: #ffffff;
 }
+
 .orangeOneHeader h1{
     margin: 0;
     padding: 0;
 }
+
 .orangeOneBits{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 1.8rem 0 1.1rem 0;
 }
+
 .orangeOneContents{
-    /* display:grid;
-    place-content: center; */
     width:50%;
     text-align: center;
 }
+
 .OrangeOneImg{
     width:50%;
     text-align: center;
 }
+
 .OrangeOneImg img{
     width: 50%;
     border-radius:25px;
     object-fit:cover;
 }
+
 .homeTeal{
     display:flex;
     flex-direction: column;
@@ -83,6 +87,7 @@ body{
     background-color: #2C858D ;
     padding: 1REM ;
 }
+
 .tealHeader{
     display:flex;
     flex-direction: column;
@@ -92,28 +97,31 @@ body{
     text-align: center;
     color: #ffffff;
 }
+
 .tealHeader h1{
     margin: 0;
     padding: 0;
 }
+
 .tealBits{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 1.8rem 0 1.1rem 0;
 }
+
 .tealImg{
     width:50%;
     text-align: center;
 }
+
 .tealImg img{
     width: 50%;
     border-radius:25px;
     object-fit:cover;
 }
+
 .tealContents{
-    /* display:grid;
-    place-content: center; */
     width:50%;
     text-align: center;
     color:#ffffff;
@@ -126,24 +134,28 @@ body{
     background-color:#F49628 ;
     padding: 1REM ;
 }
+
 .orangeTwoHeader{
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-align: center;
     color: #ffffff;
 }
+
 .homeBestSellers{
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     color:#ffffff;
 }
+
 .orangeTwoApple{
     text-align: center;
     display:flex;
     flex-direction: column;
     justify-content: center;
 }
+
 .orangeTwoApple img{
     padding-left: 10px; 
     width: 90%;
@@ -155,6 +167,7 @@ body{
     text-align: center;
     justify-content: center;
 }
+
 .orangeTwoBlue img{
     padding-left: 7px; 
     width: 100%;
@@ -166,9 +179,11 @@ body{
     text-align: center;
     justify-content: center;
 }
+
 .orangeTwoStrawnana img{
     padding-left: 18px;
 }
+
 @media (max-width:56.25em){
     .orangeOneBits{
         flex-direction: column;
@@ -297,6 +312,71 @@ body{
 }
 /* end of about page styling */
 
+/* product page styling */
+.prod-page-title {
+    color:black;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: white;
+    opacity: 75%;
+    border-radius: 25px;
+}
+
+.product-main {
+	font-size: 20px;
+	display: inline;
+	text-align: center;
+}
+
+.product-list {
+	display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    max-width: 95%;
+    margin: 80px auto;
+    padding: 0;
+}
+
+.list-item {
+	font-size: 1vw;
+	box-shadow:  0 8px 12px 0 #F47A63;
+	text-align: center;
+	list-style-type: none;
+	margin: 1em;
+	max-width: 400px;
+	border-radius: 16px;
+    color:black;
+    background-color: white;
+    opacity: 95%;
+}
+
+.item-image {
+	width: 375px;
+    height: 300px;
+}
+
+.item-wrapper {
+	padding: 1me;
+}
+
+.item-name {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.item-price {
+    font-size: 25px;
+}
+
+.item-flavor {
+    font-size: 25px;
+}
+/* end of product styling */
+
 /* contact page styling */
 .contact-title {
     font-size: 40px;
@@ -407,6 +487,18 @@ body{
 }
 
 /* media queries */
+@media only screen and (max-width: 1388px) {
+    .product-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .product-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
 @media only screen and (max-width: 786px) {
     .contact-container, .about-container-1, .about-container-2, .about-container-3, .about-p, .about-p-last, .footer-basic {
        margin: 20px;

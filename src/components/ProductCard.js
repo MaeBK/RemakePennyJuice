@@ -12,11 +12,13 @@ export default class ProductCard extends Component{
     }
     render() {
         return(
-        <li>
-            <img src={this.state.image} alt={this.state.name} />
-            <h3>{this.state.name}</h3>
-            <p>{this.state.price}.00$</p>
-            <p>Flavor:{this.state.flavor}</p>
+        <li className="list-item">
+            <img className="item-image" src={this.state.image} alt={this.state.name} />
+            <div className='item-wrapper'>
+            <h3 className="item-name">{this.state.name}</h3>
+            <p className="item-price">{this.state.price}.00$</p>
+            <p className="item-flavor">Flavor:{this.state.flavor}</p>
+            </div>
         </li>
         )
     }
