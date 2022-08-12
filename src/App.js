@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import Product from "./components/Product";
 import Contact from "./components/Contact";
 import Nav from "./components/Nav";
+import GetInTouch from "./components/GetInTouch";
 
 import { Route, Routes } from "react-router-dom";
 import './App.css';

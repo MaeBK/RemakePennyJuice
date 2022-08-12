@@ -1,60 +1,149 @@
 body {
-    background-image: url("../public/images/fruitbg2.jpg"); 
+    background-image: url("../public/images-2/fruitbg2.jpg"); 
     background-size: cover;
     font-family: sans-serif;
 }
 
+/* about page styling */
 .about-header {
     text-align: center;
     margin-right: 250px;
     margin-left: 250px;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .about-container-1 {
     margin: 50px;
     background-color: white;
     border-radius: 30px;
-    opacity: 90%;
+    opacity: 85%;
+    display: flex;
 }
 
-.about-p-1 {
-    font-size: 30px;
-    width: 70%;
-    display: inline-block;
-    margin-right: auto;
-    margin-left: auto;
+.about-container-2 {
+    margin: 50px;
+    background-color: white;
+    border-radius: 30px;
+    opacity: 85%;
+    display: flex;
+    flex-direction: row;
+}
+
+.small-container-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     text-align: center;
-    padding: 10px;
-    
+}
+
+.small-container-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+}
+
+.abt-title {
+    font-size: 30px;
+}
+
+.squiggly-1 {
+    width: 600px;
+    height:20px;
+    margin-left: 30px;
+}
+
+.squiggly-2 {
+    width: 650px;
+    height:20px;
+    margin-left: 10px;
 }
 
 .juice-bottles {
-    display: inline-block;
-    height: 270px;
+    height: 250px;
     width: 270px;
     margin-left: 50px;
     margin-top: 30px;
+    margin-right: 10px;
 }
 
-.about-p-2 {
-    font-size: 30px;
-    width: 45%;
-    display: inline-block;
+.about-p {
+    font-size: 25px;
     padding: 10px;
     text-align: center;
-    vertical-align: text-top;
-    margin-right: 70px;
-    margin-left: 10px;
+    line-height: 1.5;
+}
+
+.about-container-3 {
+    /* margin: 50px; */
+    background-color: white;
+    border-radius: 30px;
+    opacity: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-p-last {
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.input-bubble {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.input-bubble input {
+    font-size: 25px;
+    border-radius: 25px;
+    width: 50%;
     
 }
+/* end of about page styling */
 
-.about-p-3 {
-    font-size: 30px;
-    width: 45%;
-    display: inline-block;
-    padding: 10px;
-    text-align: center;
-    vertical-align: text-top;  
+/* contact page styling */
+.contact-title {
+    font-size: 40px;
+    padding-top: 50px;
+    color: rgb(156, 153, 153);
 }
 
+.contact-container {
+    display: block;
+    text-align: center;
+    margin: 50px;
+    background-color: white;
+    opacity: 85%;
+    border-radius: 50px;
+}
+
+.contact-input-bubble input {
+    font-size: 25px;
+    border-radius: 25px;
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.contact-text-area textarea {
+    padding: 8px;
+    width: 50%;
+    height: 400px;
+    font-size: 25px;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.submit-btn {
+    font-size: 18px;
+    color: white;
+    background-color: #F47A63;
+    display: center;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+/* end contact page styling */
