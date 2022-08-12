@@ -38,6 +38,12 @@ Database - MongoDB <====> Backend - Heroku ("backend" branch) <====> Frontend - 
 
 ### Misc Notes
 
+[Kanban](https://trello.com/b/I6Kx6S8u/kanban-template)
+
+[Personas](https://www.hubspot.com/make-my-persona?persona=-N9-R0gTIdtbyQ_7IGSw , https://www.hubspot.com/make-my-persona?persona=-N92y5SE6_IRLm3cVNp2)
+
+[Wireframe](https://www.figma.com/file/xKWlaGV6AZJp6WEhMf80i9/Untitled?node-id=0%3A1)
+
 [Live Site](https://main.digong0psevux.amplifyapp.com/Home)
 
 [Working Site](https://main-working.digong0psevux.amplifyapp.com/Home)
